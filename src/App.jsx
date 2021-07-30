@@ -50,7 +50,7 @@ export default class App extends Component{
     this.setState({todos:newTodos})
   }
 
-  //删除已完成项
+  //删除已完成的项
   clearAllDone = ()=>{
     let {todos} = this.state
     let newTodos = todos.filter((obj)=>{
